@@ -37,8 +37,6 @@ spec:
         resources: {}
         terminationMessagePath: /dev/termination-log
         terminationMessagePolicy: File
-      #nodeSelector:
-      #  name: activefs
       dnsPolicy: ClusterFirst
       restartPolicy: Always
       schedulerName: default-scheduler
